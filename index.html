@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color-Palette-Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="container">
+	
+	<div id="palette-container">
+		<div class="color-slot-container">
+			<div id="palette-color0" class="color-slot">
+				<div></div>
+				<span>#ffffff</span>
+			</div>
+		</div>
+		<div class="color-slot-container">
+			<div id="palette-color1" class="color-slot">
+				<div></div>
+				<span>#ffffff</span>
+			</div>
+		</div>
+		<div class="color-slot-container">
+			<div id="palette-color2" class="color-slot">
+				<div></div>
+				<span>#ffffff</span>
+			</div>
+		</div>
+		<div class="color-slot-container">
+			<div id="palette-color3" class="color-slot">
+				<div></div>
+				<span>#ffffff</span>
+			</div>
+		</div>
+		<div class="color-slot-container">
+			<div id="palette-color4" class="color-slot">
+				<div></div>
+				<span>#ffffff</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="generate-container">
+		<button id="generate" class="flat-btn big-btn" onclick="generatePalette()">Generate</button>
+	</div>
+
+
+	<div class="bottom-section">
+		<button id="history-btn" class="flat-btn big-btn" onclick="toggleHistory()">Recent History</button>
+		<div id="history-section" class="section-content"></div>
+	</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

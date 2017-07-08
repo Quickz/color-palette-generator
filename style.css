@@ -1,0 +1,90 @@
+
+body {
+	background: #c3c3c3;
+}
+
+#container {
+	margin: 100px auto auto auto;
+	width: 475px;
+	height: 150px;
+}
+
+#palette-container {
+	display: flex;
+	background: #e1e1e1;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.color-slot-container {
+	margin: 10px 0;
+	flex-grow: 1;
+}
+
+.color-slot {
+	display: inline-block;
+	width: 50px;
+	margin: 0 15px;
+	padding: 5px 5px;
+	text-align: center;
+	box-shadow: 0px 0px 5px 0px #888;
+}
+
+.color-slot:hover {
+	box-shadow: 0px 0px 5px 1px #888;
+}
+
+.color-slot div {
+	width: 50px;
+	height: 50px;
+	background: #ffffff;
+}
+
+.color-slot span {
+	display: inline-block;
+	font-size: 15px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+button {
+	cursor: pointer;
+}
+
+#generate-container {
+	text-align: center;
+}
+
+#generate, #history-btn {
+	background: green;
+	color: #e1e1e1;
+}
+
+#generate:hover, #history-btn:hover {
+	background: darkgreen;
+}
+
+#history-btn {
+	width: 100%;
+}
+
+.flat-btn {
+	padding: 5px 10px;
+	border: none;
+}
+
+.big-btn {
+	font-size: 35px;
+}
+
+.bottom-section {
+	margin-top: 10px;
+	background: #e1e1e1;
+}
+
+.section-content {
+	height: 0;
+	overflow-y: scroll;
+}
